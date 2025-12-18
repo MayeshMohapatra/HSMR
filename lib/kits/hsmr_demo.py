@@ -33,6 +33,7 @@ def parse_args():
     parser.add_argument('--max_instances', type=int, default=5, help='Max instances activated in one image.')
     parser.add_argument('--ignore_skel', action='store_true', help='Do not render skeleton to boost the rendering.')
     parser.add_argument('--have_caption', action='store_true', help='Add caption to the rendered images.')
+    parser.add_argument('--save_mesh_vis', action='store_true', help='Save mesh-only visualizations (wireframe on white background).')
     args = parser.parse_args()
     return args
 

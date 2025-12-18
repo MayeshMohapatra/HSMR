@@ -1,0 +1,2 @@
+rm -rf /data/mayesh/demo_outputs/video_demo
+python exp/run_demo.py --input_path "/data/mayesh/data/captured-data/jump_7.mp4" --output_path "/data/mayesh/output-data/hsmr/jump-7" --save_mesh_vis
